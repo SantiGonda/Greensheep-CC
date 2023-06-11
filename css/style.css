@@ -318,6 +318,9 @@ footer .nuevo-socio a {
   .main1-club p {
     text-align: center;
   }
+  .cultivo {
+    padding: 20px;
+  }
   .cultivo .card .card-body .card-text {
     padding: 0;
   }

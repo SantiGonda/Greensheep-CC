@@ -52,7 +52,7 @@
   }
 
   // ELCLUB
-    .main1-club {
+  .main1-club {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,15 +63,16 @@
   }
 
   .cultivo {
+    padding: 20px;
     .card {
-      .card-body{
-      .card-text{
-        padding: 0 ;
+      .card-body {
+        .card-text {
+          padding: 0;
+        }
       }
     }
   }
-}
-  
+
 
   //  INICIO
   .main-inicio img {
