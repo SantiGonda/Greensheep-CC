@@ -154,69 +154,70 @@ footer .nuevo-socio a {
   border-radius: 50px;
 }
 
-main .main1-club {
+.main1-club {
   display: grid;
   grid-template-columns: 1fr 1fr;
   align-items: center;
   padding: 20px;
   background: none;
 }
-main .main1-club .nosotros {
+.main1-club .nosotros {
   display: flex;
   flex-direction: column;
   align-items: center;
 }
-main .main1-club .nosotros h1, main .main1-club .nosotros .main-inicio h2, .main-inicio main .main1-club .nosotros h2 {
+.main1-club .nosotros h1, .main1-club .nosotros .main-inicio h2, .main-inicio .main1-club .nosotros h2 {
   font-family: "greensheep";
 }
-main .main1-club .nosotros p {
+.main1-club .nosotros p {
   font-family: "Shadows+Into+Light";
   font-size: larger;
   padding: 20px;
   text-align: justify;
 }
-main .cultivo {
+
+.cultivo {
   display: flex;
   flex-direction: column;
   align-items: center;
   padding: 20px 100px 20px 100px;
 }
-main .cultivo h2 {
+.cultivo h2 {
   font-family: "greensheep";
   font-size: xx-large;
   margin-bottom: 30px;
   color: rgb(49, 87, 44);
 }
-main .cultivo .card {
+.cultivo .card {
   background-color: rgb(49, 87, 44);
   border-radius: 30px;
 }
-main .cultivo .card .foto {
+.cultivo .card .foto {
   display: flex;
   align-items: center;
   justify-content: center;
 }
-main .cultivo .card .foto img {
+.cultivo .card .foto img {
   border-radius: 30px !important;
 }
-main .cultivo .card .card-body {
+.cultivo .card .card-body {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
   height: 100%;
 }
-main .cultivo .card .card-body h5 {
+.cultivo .card .card-body h5 {
   font-weight: 500;
   text-align: center;
   color: rgb(236, 243, 158);
   padding-top: 5px;
 }
-main .cultivo .card .card-body .card-text {
+.cultivo .card .card-body .card-text {
   text-align: center;
   color: rgb(236, 243, 158);
   padding: 0 80px 0 80px;
 }
-main .cultivo .card .card-body .text2 {
+.cultivo .card .card-body .text2 {
   text-align: end;
   color: black;
   font-weight: bold;
@@ -317,13 +318,8 @@ main .cultivo .card .card-body .text2 {
   .main1-club p {
     text-align: center;
   }
-  .mapas iframe {
-    width: 90vw;
-  }
-  .mapas .linkmapas {
-    flex-direction: column;
-    align-items: center;
-    gap: 50px;
+  .cultivo .card .card-body .card-text {
+    padding: 0;
   }
   .main-inicio img {
     height: 200px;
